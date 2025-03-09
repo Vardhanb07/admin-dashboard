@@ -8,6 +8,7 @@ a{
 }
 body{
     display: grid;
+    height: 100vh;
     grid-template-columns: 1fr 4fr;
 }
 .dashboard{
@@ -15,5 +16,122 @@ body{
     font-family: "Roboto";
     font-weight: 600;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+    grid-template-rows: 1fr 6fr;
+}
+.dashboard-header {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.dashboard-header > a {
+    justify-self: start;
+    font-size: 20px;
+}
+.dashboard-elements{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 40px;
+}
+.group-1 {
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(6, 1fr);
+}
+.home{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.home > a{
+    justify-self: start;
+}
+.profile {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.profile > a{
+    justify-self: start;
+}
+.messages {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.messages > a{
+    justify-self: start;
+}
+.history{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.history > a{
+    justify-self: start;
+}
+.tasks{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.tasks > a{
+    justify-self: start;
+}
+.communities {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.communities > a{
+    justify-self: start;
+}
+.group-2{
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(3, 20%);
+}
+.settings {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.settings > a{
+    justify-self: start;
+}
+.support {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.support > a{
+    justify-self: start;
+}
+.privacy{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr;
+    justify-items: center;
+    align-items: center;
+}
+.privacy > a{
+    justify-self: start;
 }
